@@ -1,7 +1,7 @@
 # Annotation and Visualization Tools
 
-This folder contains the tools used to annotate the actions, the camera shots and replays of SoccerNet-v2.
-These tools can also be used to visualize the SoccerNet-v2 annotations on the videos.
+This folder contains the tools used to annotate the actionsof SoccerNet-v2.
+These tools can also be used to visualize the action spotting annotations on the videos.
 
 ## Getting Started
 
