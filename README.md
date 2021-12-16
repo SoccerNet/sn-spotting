@@ -21,23 +21,39 @@ The official rules and guidelines are available on [ChallengeRules.md](Challenge
 <p align="center"><img src="Images/Miniature.png" width="720"></p>
 </a>
 
-### Challenge leaderboard
+### 2021 Challenge leaderboard
 
-This table summarizes the current performances on the challenge until January 2022. For a more updated leaderboard on the challenge, please visit EvalAI [test](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2072) and [challenge](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2074) leaderboards.
+This table summarizes the current performances on the 2021 challenge. 
+For the leaderboard on the 2022 challenge, please visit EvalAI [test](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2072) and [challenge](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2074) leaderboards.
 
 | Model     | tight Avg-mAP (challenge)  | Avg-mAP (challenge) | tight Avg-mAP (test)  | Avg-mAP (test) |
 | ----------| -------- | -------- | -------- | -------- |
 |[Baidu Research](https://arxiv.org/pdf/2106.14447.pdf)| 49.56% | 74.84% | 47.05% | 73.77% |
 |[OPPO]()| 46.17% | 64.73% | NA | NA |
 |[NetVLAD++ with Baidu features](https://arxiv.org/pdf/2106.14447.pdf)| 43.99% | 74.63% | NA | NA |
-|[AImageLab-RMS]()| 27,69% | 60,92% | 28,83% | 63,49% |
-|[IdealCat]()| 26,47% | 54,24% | NA | NA |
-|[CALF-calibration](https://arxiv.org/abs/2104.09333)| 15,83% | 46,39% | NA | NA |
-|[CALF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cioppa_A_Context-Aware_Loss_Function_for_Action_Spotting_in_Soccer_Videos_CVPR_2020_paper.pdf)| 15,33% | 42,22% | NA | NA |
-|[NetVLAD++](https://arxiv.org/pdf/2104.06779.pdf)| 9,91% | 52,54% | 11,51% | 53,40% |
-|[straw]()| 7,39% | 51,65% | 5,92% | 49,78% |
-|[NetVLAD](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| 4,31% | 30,74% | 4,20% | 31,37% |
+|[AImageLab-RMS](https://arxiv.org/abs/2102.07624)| 27.69% | 60.92% | 28.83% | 63.49% |
+|[IdealCat]()| 26.47% | 54.24% | NA | NA |
+|[CALF-calibration](https://arxiv.org/abs/2104.09333)| 15.83% | 46.39% | NA | 46.80% |
+|[CALF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cioppa_A_Context-Aware_Loss_Function_for_Action_Spotting_in_Soccer_Videos_CVPR_2020_paper.pdf)| 15.33% | 42.22% | NA | NA |
+|[NetVLAD++](https://arxiv.org/pdf/2104.06779.pdf)| 9.91% | 52.54% | 11.51% | 53.40% |
+|[straw]()| 7.39% | 51.65% | 5.92% | 49.78% |
+|[NetVLAD](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| 4.31% | 30.74% | 4.20% | 31.37% |
 
+### Published research benchmark
+
+This table summarizes the current performances of published methods only.  Last update January 2022.
+
+| Model     | tight Avg-mAP (challenge)  | Avg-mAP (challenge) | tight Avg-mAP (test)  | Avg-mAP (test) |
+| ----------| -------- | -------- | -------- | -------- |
+|[Baidu Research](https://arxiv.org/pdf/2106.14447.pdf)| 49.56% | 74.84% | 47.05% | 73.77% |
+|[NetVLAD++ with Baidu features](https://arxiv.org/pdf/2106.14447.pdf)| 43.99% | 74.63% | NA | NA |
+|[AImageLab-RMS](https://arxiv.org/abs/2102.07624)| 27.69% | 60.92% | 28.83% | 63.49% |
+|[CALF-calibration](https://arxiv.org/abs/2104.09333)| 15.83% | 46.39% | NA | 46.80% |
+|[CALF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cioppa_A_Context-Aware_Loss_Function_for_Action_Spotting_in_Soccer_Videos_CVPR_2020_paper.pdf)| 15.33% | 42.22% | NA | NA |
+|[NetVLAD++](https://arxiv.org/pdf/2104.06779.pdf)| 9,91% | 52.54% | 11.51% | 53.40% |
+|[NetVLAD](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| 4.31% | 30.74% | 4.20% | 31.37% |
+|[AudioVid](https://openaccess.thecvf.com/content_CVPRW_2020/html/w53/Vanderplaetse_Improved_Soccer_Action_Spotting_Using_Both_Audio_and_Video_Streams_CVPRW_2020_paper.html)| NA | NA | NA | 39.9% |
+|[MaxPool](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| NA | NA | NA | 18.6% |
 
 ## How to download SoccerNet-v2 
 
