@@ -1,10 +1,10 @@
 # Baselines for Action Spotting
 
-This folder contains the different baselines for the action spotting task on SoccerNet-V2.
+This folder contains the different benchmarks for the action spotting task on SoccerNet-V2.
 
-### Leaderboard
+### Benchmark performances
 
-This table summarizes the performances of the published papers on SoccerNetv2 until August 2021. For a more updated leaderboard, please visit EvalAI [test](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2072) and [challenge](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2074) leaderboards.
+This table summarizes the performances of the published papers on SoccerNetv2 until August 2022. For a more updated leaderboard on the challenge, please visit EvalAI [test](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2072) and [challenge](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2074) leaderboards.
 
 | Model     | Avg-mAP (test)  | Paper       | Code |
 | ----------| -------- | ------------------------- | ---   |
