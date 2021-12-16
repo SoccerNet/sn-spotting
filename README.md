@@ -75,9 +75,7 @@ The functions to extract the video features can be found in the [Features](Featu
 
 ## Benchmark Implementations
 
-This repository contains several baselines for each task which are presented in the [SoccerNet-V2 paper](https://arxiv.org/pdf/2011.13367.pdf), or subsequent papers. You can use these codes to build upon our methods and improve the performances.
-
-- Action Spotting [[Link]](Task1-ActionSpotting)
+This repository contains several [benchmarks](Task1-ActionSpotting) for action spotting, which are presented in the [SoccerNet-V2 paper](https://arxiv.org/pdf/2011.13367.pdf), or subsequent papers. You can use these codes to build upon our methods and improve the performances.
 
 
 ## Evaluation
