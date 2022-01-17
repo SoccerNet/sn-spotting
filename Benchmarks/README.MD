@@ -2,6 +2,8 @@
 
 This folder contains the different benchmarks for the action spotting task on SoccerNet-V2.
 
+Note that these benchmarks still use the 2021 average-mAP metric, not the tight average-mAP of 2022. The option to use the second metric will be added in a future release.
+
 ## [CALF](CALF): A Context-Aware Loss Function for Action Spotting in Soccer Videos 
 
 A custom loss function is used to explicitly model the temporal context around action spots. The main idea behind this loss is to penalize the frames far-distant from the action and steadily decrease the penalty for the frames gradually closer to the action. The frames just before the action are not penalized to avoid providing misleading information as its occurrence is uncertain. However, those just after the action are heavily penalized as we know for sure that the action has occurred.
