@@ -34,7 +34,7 @@ Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 
 ## How to win / What is the prize?
 
  - For each task, the winner is the individual/team who reach the highest performance on the **challenge** set.
- - The metrics taken into consideration are the **Average-mAP for Action Spotting** and the **Average-AP for Replay Grounding**.
+ - The metrics taken into consideration are the **tight Average-mAP for Action Spotting** and the **tight Average-AP for Replay Grounding**.
  - The deadline to submit your results is May 30th at 11.59 pm Pacific Time.
  - The teams that perform best in each task will be granted $500 from our sponsor [Second Spectrum](https://www.secondspectrum.com/index.html).
  - In order to be eligible for the prize, we require the individual/team to provide a short report describing the details of the methodology (CVPR format, max 2 pages)
