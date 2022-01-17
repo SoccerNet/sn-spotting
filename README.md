@@ -107,6 +107,15 @@ This repository and the pip package provide evaluation functions for the propose
 
 Finally, this repository provides the [Annotation tool](Annotation) used to annotate the actions. This tool can be used to visualize the information. Please follow the instruction in the dedicated folder for more details.
 
+## Our other Challenges
+
+Check out our other challenges related to SoccerNet!
+- [Action Spotting](https://github.com/SoccerNet/sn-spotting)
+- [Replay Grounding](https://github.com/SoccerNet/sn-grounding)
+- [Calibration](https://github.com/SoccerNet/sn-calibration)
+- [Re-Identification](https://github.com/SoccerNet/sn-reid)
+- [Tracking](https://github.com/SoccerNet/sn-tracking)
+
 ## Citation
 
 For further information check out the paper and supplementary material:
