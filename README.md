@@ -55,7 +55,7 @@ This table summarizes the current performances of published methods only.  Last 
 |[AudioVid](https://openaccess.thecvf.com/content_CVPRW_2020/html/w53/Vanderplaetse_Improved_Soccer_Action_Spotting_Using_Both_Audio_and_Video_Streams_CVPRW_2020_paper.html)| NA | NA | NA | 39.9% |
 |[MaxPool](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| NA | NA | NA | 18.6% |
 
-## How to download SoccerNet-v2 
+## How to download the dataset
 
 A [SoccerNet pip package](https://pypi.org/project/SoccerNet/) to easily download the data and the annotations is available. 
 
