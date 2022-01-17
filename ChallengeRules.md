@@ -1,7 +1,7 @@
-# Guidelines for the SoccerNet-v2 challenge
+# Guidelines for the Action Spotting challenge
 
-The 1st [SoccerNet-v2 Challenge](https://eval.ai/web/challenges/challenge-page/761/overview) will be held at the 
-official [ActivityNet Workshop](http://activity-net.org/challenges/2020/challenge.html) at CVPR 2021! 
+The 2nd [Action Spotting Challenge]() will be held at the 
+official [ActivityNet Workshop](http://activity-net.org/challenges/2021/challenge.html) at CVPR 2022! 
 Subscribe (watch) the repo to receive the latest info regarding timeline and prizes!
 
 
@@ -13,10 +13,10 @@ It is composed of 2 tasks:
  - **Action Spotting**: Spot the actions on a complete video of soccer game.
  - **Replay Grounding**: Ground the timestamp of the actions represented in a specific replay.
 
-We provide an [evaluation server](https://eval.ai/web/challenges/challenge-page/761/overview) for anyone competing in the SoccerNet-v2 challenge. 
+We provide an [evaluation server]() for anyone competing in the SoccerNet-v2 challenge. 
 This evaluation server handles predictions for the open **test** set and the segregated **challenge** set.
 
-Winners will be announced at ActivityNet Workshop at CVPR 2021. 
+Winners will be announced at ActivityNet Workshop at CVPR 2022. 
 Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 for Replay Grounding), sponsored by [Second Spectrum](https://www.secondspectrum.com/index.html).
 
 
@@ -45,10 +45,10 @@ Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 
 
 Note that these dates are tentative and subject to changes if necessary.
 
- - **January 25:** Open evaluation server on the (Open) Test set.
- - **February 5:** Open evaluation server on the (Seggregated) Challenge set.
+ - **February 1:** Open evaluation server on the (Open) Test set.
+ - **February 15:** Open evaluation server on the (Seggregated) Challenge set.
  - **May 30:** Close evaluation server.
  - **June 6:** Deadline for submitting the report.
- - **June 19:** A full-day workshop at CVPR 2021.
+ - **June TBD:** A full-day workshop at CVPR 2022.
 
 For any further doubt or concern, please raise an issue in that repository, or contact us directly on [Discord](https://discord.gg/SM8uHj9mkP).
