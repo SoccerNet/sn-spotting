@@ -14,8 +14,6 @@ Results.zip
    - season
      - game full name
        - results_spotting.json
-       - results_segmentation.json
-       - results_grounding.json
 ```
 
 ### `results_spotting.json`
