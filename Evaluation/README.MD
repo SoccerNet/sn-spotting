@@ -2,6 +2,8 @@
 
 We provide evaluation functions directly integrated in our pip package (`pip install SoccerNet`) as well as an evaluation server on [EvalAI]().
 
+The 2022 challenges introduce the new tight average-mAP. You can choose which metric to use with the <code>--metric</code> argument in the function.
+
 ## Ouput Format
 
 To submit your results on EvalAI or to use the integreted function of the pip package, the predictions of the network have to be saved in a specific format, with a specific folder structure.
@@ -55,20 +57,20 @@ For the action spotting task, each json file needs to be constructed as follows:
 ### Spotting
 
 ```bash
-python EvaluateSpotting.py --SoccerNet_path /path/to/SoccerNet/ --Predictions_path /path/to/SoccerNet/outputs/
+python EvaluateSpotting.py --SoccerNet_path /path/to/SoccerNet/ --Predictions_path /path/to/SoccerNet/outputs/ --metric tight
 ```
 
 ```python
 from SoccerNet.Evaluation.ActionSpotting import evaluate
 results = evaluate(SoccerNet_path=PATH_DATASET, Predictions_path=PATH_PREDICTIONS,
-                   split="test", version=2, prediction_file="results_spotting.json")
+                   split="test", version=2, prediction_file="results_spotting.json", metric="tight")
 
-print("Average mAP: ", results["a_mAP"])
-print("Average mAP per class: ", results["a_mAP_per_class"])
-print("Average mAP visible: ", results["a_mAP_visible"])
-print("Average mAP visible per class: ", results["a_mAP_per_class_visible"])
-print("Average mAP unshown: ", results["a_mAP_unshown"])
-print("Average mAP unshown per class: ", results["a_mAP_per_class_unshown"])
+print("tight Average mAP: ", results["a_mAP"])
+print("tight Average mAP per class: ", results["a_mAP_per_class"])
+print("tight Average mAP visible: ", results["a_mAP_visible"])
+print("tight Average mAP visible per class: ", results["a_mAP_per_class_visible"])
+print("tight Average mAP unshown: ", results["a_mAP_unshown"])
+print("tight Average mAP unshown per class: ", results["a_mAP_per_class_unshown"])
 ```
 
 ## How to evaluate online the performances on the challenge
