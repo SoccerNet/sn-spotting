@@ -27,9 +27,9 @@ if __name__ == '__main__':
     results = evaluate(SoccerNet_path=args.SoccerNet_path, Predictions_path=args.Predictions_path,
                        split=args.split, version=args.version, prediction_file=args.Prediction_file, metric=args.metric)
 
-    print("Average mAP: ", results["a_mAP"])
-    print("Average mAP per class: ", results["a_mAP_per_class"])
-    print("Average mAP visible: ", results["a_mAP_visible"])
-    print("Average mAP visible per class: ", results["a_mAP_per_class_visible"])
-    print("Average mAP unshown: ", results["a_mAP_unshown"])
-    print("Average mAP unshown per class: ", results["a_mAP_per_class_unshown"])
+    print("tight Average mAP: ", results["a_mAP"])
+    print("tight Average mAP per class: ", results["a_mAP_per_class"])
+    print("tight Average mAP visible: ", results["a_mAP_visible"])
+    print("tight Average mAP visible per class: ", results["a_mAP_per_class_visible"])
+    print("tight Average mAP unshown: ", results["a_mAP_unshown"])
+    print("tight Average mAP unshown per class: ", results["a_mAP_per_class_unshown"])
