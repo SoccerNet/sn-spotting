@@ -17,7 +17,7 @@ We provide an [evaluation server]() for anyone competing in the SoccerNet-v2 cha
 This evaluation server handles predictions for the open **test** set and the segregated **challenge** set.
 
 Winners will be announced at ActivityNet Workshop at CVPR 2022. 
-Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 for Replay Grounding), sponsored by [Second Spectrum](https://www.secondspectrum.com/index.html).
+Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 for Replay Grounding), sponsored by [SportRadar](https://www.sportradar.com/).
 
 
 ## Who can participate / How to participate?
@@ -36,7 +36,7 @@ Prizes 💲💲💲 include $1000 cash award ($500 for Action Spotting and $500 
  - For each task, the winner is the individual/team who reach the highest performance on the **challenge** set.
  - The metrics taken into consideration are the **tight Average-mAP for Action Spotting** and the **tight Average-AP for Replay Grounding**.
  - The deadline to submit your results is May 30th at 11.59 pm Pacific Time.
- - The teams that perform best in each task will be granted $500 from our sponsor [Second Spectrum](https://www.secondspectrum.com/index.html).
+ - The teams that perform best in each task will be granted $500 from our sponsor [SportRadar](https://www.sportradar.com/).
  - In order to be eligible for the prize, we require the individual/team to provide a short report describing the details of the methodology (CVPR format, max 2 pages)
 
 
