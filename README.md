@@ -12,7 +12,7 @@ The Action Spotting dataset consists of 500 complete soccer games including:
  - Pre-computed features such as ResNET-152.
  - Annotations of actions among 17 classes (Labels-v2.json).
 
-Participate in our upcoming Challenge in the [CVPR 2022 International Challenge on Activity Recognition Workshop](http://activity-net.org/challenges/2021/index.html) and try to win 500$ sponsored by [SportRadar](https://www.sportradar.com/)! All details can be found on the [challenge website](), or on the [main page](https://soccer-net.org/).
+Participate in our upcoming Challenge in the [CVPR 2022 International Challenge on Activity Recognition Workshop](http://activity-net.org/challenges/2021/index.html) and try to win 500$ sponsored by [SportRadar](https://www.sportradar.com/)! All details will soon be available on the [challenge website](), or on the [main page](https://soccer-net.org/).
 
 The participation deadline is fixed at the 30th of May 2022.
 The official rules and guidelines are available on [ChallengeRules.md](ChallengeRules.md).
