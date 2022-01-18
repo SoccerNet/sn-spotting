@@ -34,7 +34,7 @@ For the leaderboard on the 2022 challenge, please visit EvalAI [test](https://ev
 |[AImageLab-RMS](https://arxiv.org/abs/2102.07624)| 27.69% | 60.92% | 28.83% | 63.49% |
 |[IdealCat]()| 26.47% | 54.24% | NA | NA |
 |[CALF-calibration](https://arxiv.org/abs/2104.09333)| 15.83% | 46.39% | NA | 46.80% |
-|[CALF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cioppa_A_Context-Aware_Loss_Function_for_Action_Spotting_in_Soccer_Videos_CVPR_2020_paper.pdf)| 15.33% | 42.22% | NA | NA |
+|[CALF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cioppa_A_Context-Aware_Loss_Function_for_Action_Spotting_in_Soccer_Videos_CVPR_2020_paper.pdf)| 15.33% | 42.22% | 14.10% | 41,61% |
 |[NetVLAD++](https://arxiv.org/pdf/2104.06779.pdf)| 9.91% | 52.54% | 11.51% | 53.40% |
 |[straw]()| 7.39% | 51.65% | 5.92% | 49.78% |
 |[NetVLAD](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w34/Giancola_SoccerNet_A_Scalable_CVPR_2018_paper.pdf)| 4.31% | 30.74% | 4.20% | 31.37% |
