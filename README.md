@@ -17,7 +17,7 @@ Participate in our upcoming Challenge in the [CVPR 2022 International Challenge 
 The participation deadline is fixed at the 30th of May 2022.
 The official rules and guidelines are available on [ChallengeRules.md](ChallengeRules.md).
 
-<a href="">
+<a href="https://youtu.be/tA9E1hkiyB0">
 <p align="center"><img src="Images/Thumbnail.png" width="720"></p>
 </a>
 
