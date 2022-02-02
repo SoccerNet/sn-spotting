@@ -1,6 +1,6 @@
 # SoccerNet - Action Spotting
 
-Welcome to the SoccerNet Development Kit for the Action Spotting Task and Challenge. This kit is meant as a help to get started working with the soccernet data and the proposed task. More information about the dataset can be found on our [official website](https://soccer-net.org/).
+Welcome to the SoccerNet Development Kit for the Action Spotting Task and Challenge. This kit is meant as a help to get started working with the soccernet data and the proposed task. More information about the dataset can be found on our [official website](https://www.soccer-net.org/).
 
 SoccerNet Action Spotting is part of the SoccerNet-v2 dataset, which is an extension of SoccerNet-v1 with new and challenging tasks including
 action spotting, camera shot segmentation with boundary detection, and a novel replay grounding task.
