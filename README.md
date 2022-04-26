@@ -81,8 +81,8 @@ mySoccerNetDownloader.downloadGames(files=["1_720p.mkv", "2_720p.mkv", "video.in
 We provide several features including ResNET (used for our [benchmarks](Benchmarks)), and last year's winners features from [Baidu Research](https://arxiv.org/pdf/2106.14447.pdf). Check out our [pip package](https://pypi.org/project/SoccerNet/) documentation for more features.
 ```
 mySoccerNetDownloader.password = input("Password for videos?:\n")
-mySoccerNetDownloader.downloadGames(files=["1_ResNET_TF2_PCA512.npy.mkv", "2_ResNET_TF2_PCA512.npy.mkv"], split=["train","valid","test","challenge"])
-mySoccerNetDownloader.downloadGames(files=["1_baidu_soccer_embeddings.npy", "2_baidu_soccer_embeddings.npy.mkv", "video.ini"], split=["train","valid","test","challenge"])
+mySoccerNetDownloader.downloadGames(files=["1_ResNET_TF2_PCA512.npy", "2_ResNET_TF2_PCA512.npy"], split=["train","valid","test","challenge"])
+mySoccerNetDownloader.downloadGames(files=["1_baidu_soccer_embeddings.npy", "2_baidu_soccer_embeddings.npy", "video.ini"], split=["train","valid","test","challenge"])
 ```
 
 
