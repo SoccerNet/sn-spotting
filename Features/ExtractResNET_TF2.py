@@ -188,7 +188,7 @@ if __name__ == "__main__":
                         help="ResNET or R25D [default:ResNET]")
     parser.add_argument('--transform', type=str, default="crop",
                         help="crop or resize? [default:crop]")
-    parser.add_argument('--video', type=str, default="LQ",
+    parser.add_argument('--video', type=str, default="224p",
                         help="LQ or HQ? [default:LQ]")
     parser.add_argument('--grabber', type=str, default="opencv",
                         help="skvideo or opencv? [default:opencv]")
