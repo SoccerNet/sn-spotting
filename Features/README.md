@@ -14,7 +14,7 @@ pip install scikit-video tensorflow==2.3.0 imutils opencv-python==3.4.11.41 Socc
 ## Extract ResNET features for all 550 games (500 + 50 challenge)
 
 ```bash
-python Features/ExtractResNET_TF2.py --soccernet_dirpath /path/to/SoccerNet/ --back_end=TF2 --features=ResNET --video LQ --transform crop --verbose --split all
+python Features/ExtractResNET_TF2.py --soccernet_dirpath /path/to/SoccerNet/ --back_end=TF2 --features=ResNET --video 224p --transform crop --verbose --split all
 ```
 
 ## Reduce features for all 550 games (500 games to estimate PCA + 50 challenge games for inference)
