@@ -34,7 +34,7 @@ from SoccerNet.DataLoader import Frame, FrameCV
 class FeatureExtractor():
     def __init__(self, rootFolder,
                  feature="ResNET",
-                 video="LQ",
+                 video="224p",
                  back_end="TF2",
                  overwrite=False,
                  transform="crop",
@@ -83,7 +83,11 @@ class FeatureExtractor():
 
     def extractGameIndex(self, index):
         print(getListGames(self.split)[index])
-        if self.video =="LQ":
+        if self.video =="224p":
+            for vid in ["1_224p.mkv","2_224p.mkv"]:
+                self.extract(video_path=os.path.join(self.rootFolder, getListGames(self.split)[index], vid))
+                
+        elif self.video =="LQ":
             for vid in ["1.mkv","2.mkv"]:
                 self.extract(video_path=os.path.join(self.rootFolder, getListGames(self.split)[index], vid))
 
