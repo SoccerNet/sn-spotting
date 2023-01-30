@@ -5,6 +5,9 @@ Welcome to the SoccerNet Development Kit for the Action Spotting Task and Challe
 SoccerNet Action Spotting is part of the SoccerNet-v2 dataset, which is an extension of SoccerNet-v1 with new and challenging tasks including
 action spotting, camera shot segmentation with boundary detection, and a novel replay grounding task.
 
+__[News]__ For the 2023, we introduce a novel spotting challenge on ball events including drive and passes. Those events are much more dense and require a higher level of spotting precision. The density of those events, as well as the subtle underlying movement of the ball and players, make this new task even more challenging. For this new challenge, you only have access to 7 annotated games, so you may want to take a look at different training paradigms such as transfer learning, unsupervised learning or semi-supervised learning. Remember that you still have access to the 500 videos from soccernet to help you.
+
+
 <p align="center"><img src="Images/GraphicalAbstract-SoccerNet-V2-1.png" width="640"></p>
 
 The Action Spotting dataset consists of 500 complete soccer games including:
@@ -12,18 +15,26 @@ The Action Spotting dataset consists of 500 complete soccer games including:
  - Pre-computed features such as ResNET-152.
  - Annotations of actions among 17 classes (Labels-v2.json).
 
-Participate in our upcoming Challenge in the [CVPR 2022 International Challenge on Activity Recognition Workshop](http://activity-net.org/challenges/2021/index.html) and try to win 500$ sponsored by [SportRadar](https://www.sportradar.com/)! All details are available on the [challenge website](https://eval.ai/web/challenges/challenge-page/1536/overview), or on the [main page](https://soccer-net.org/).
+ The new Ball Action Spotting dataset consists of 7 complete soccer games including:
+ - Full untrimmed broadcast videos in both low and high resolution.
+ - Annotations of actions among 2 classes (Labels-ball.json).
 
-The participation deadline is fixed at the 30th of May 2022.
+Participate in our upcoming Challenges during the [CVPR 2023 International Challenge at the CVSports Workshop](https://vap.aau.dk/cvsports/)! All details will be available on the [challenge website](https://eval.ai/web/challenges/challenge-page/1536/overview), or on the [main soccernet page](https://www.soccer-net.org/).
+
+The participation deadline is fixed at the 30th of May 2023.
 The official rules and guidelines are available on [ChallengeRules.md](ChallengeRules.md).
 
 <a href="https://youtu.be/tA9E1hkiyB0">
 <p align="center"><img src="Images/Thumbnail.png" width="720"></p>
 </a>
 
+### 2022 Challenge leaderboard
+
+The leaderboard will soon be provided here. In the meantime, please check out our paper on the [SoccerNet 2022 Challenge Results](https://arxiv.org/abs/2210.02365) published at the ACMM Workshop.
+
 ### 2021 Challenge leaderboard
 
-This table summarizes the current performances on the 2021 challenge. 
+This table summarizes the current performances on the 2021 Action Spotting Challenge. 
 For the leaderboard on the 2022 challenge, please visit EvalAI [test](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2072) and [challenge](https://eval.ai/web/challenges/challenge-page/761/leaderboard/2074) leaderboards.
 
 | Model     | tight Avg-mAP (challenge)  | Avg-mAP (challenge) | tight Avg-mAP (test)  | Avg-mAP (test) |
@@ -57,6 +68,8 @@ This table summarizes the current performances of published methods only.  Last 
 
 ## How to download the dataset
 
+### SoccerNet-v2 Action Spotting
+
 A [SoccerNet pip package](https://pypi.org/project/SoccerNet/) to easily download the data and the annotations is available. 
 
 To install the pip package simply run:
@@ -85,6 +98,12 @@ mySoccerNetDownloader.downloadGames(files=["1_baidu_soccer_embeddings.npy", "2_b
 ```
 
 
+### SoccerNet Ball Action Spotting
+
+You may use the same pip package as for SoccerNet-v2.
+Information and data coming soon.
+
+
 ## How to extract video features 
 
 As it was one of the most requested features on SoccerNet-V1, this repository provides functions to automatically extract the ResNet-152 features and compute the PCA on your own broadcast videos. These functions allow you to test pre-trained action spotting, camera segmentation or replay grounding models on your own games.
@@ -95,8 +114,13 @@ The functions to extract the video features can be found in the [Features](Featu
 
 ## Benchmark Implementations
 
+### SoccerNet-v2 Action Spotting
+
 This repository contains several [benchmarks](Benchmarks) for action spotting, which are presented in the [SoccerNet-V2 paper](https://arxiv.org/pdf/2011.13367.pdf), or subsequent papers. You can use these codes to build upon our methods and improve the performances.
 
+### SoccerNet Ball Action Spotting
+
+The benchmark to beat this year is the [E2E-spot](https://arxiv.org/abs/2207.10213) method published at ECCV 2022 by J. Hong et. al trained with default parameters and 25fps videos. This method arrived second in the 2022 Action Spotting Challenge The code will be updated on their [github repository](https://github.com/jhong93/spot) for anyone to reproduce the baseline results and improve on them.
 
 ## Evaluation
 
