@@ -5,8 +5,7 @@ Welcome to the SoccerNet Development Kit for the Action Spotting Task and Challe
 SoccerNet Action Spotting is part of the SoccerNet-v2 dataset, which is an extension of SoccerNet-v1 with new and challenging tasks including
 action spotting, camera shot segmentation with boundary detection, and a novel replay grounding task.
 
-__[News]__ For the 2023, we introduce a novel spotting challenge on ball events including drive and passes. Those events are much more dense and require a higher level of spotting precision. The density of those events, as well as the subtle underlying movement of the ball and players, make this new task even more challenging. For this new challenge, you only have access to 7 annotated games, so you may want to take a look at different training paradigms such as transfer learning, unsupervised learning or semi-supervised learning. Remember that you still have access to the 500 videos from soccernet to help you.
-
+__[New]__ In 2023, we introduce a novel spotting challenge on ball events including drive and passes. Those events are much more dense and require a higher level of spotting precision. The density of those events, as well as the subtle underlying movement of the ball and players, make this new task even more challenging. For this new challenge, you only have access to 7 annotated games, so you may want to take a look at different training paradigms such as transfer learning, unsupervised learning or semi-supervised learning. Remember that you still have access to the 500 videos from soccernet to help you.
 
 <p align="center"><img src="Images/GraphicalAbstract-SoccerNet-V2-1.png" width="640"></p>
 
@@ -30,7 +29,8 @@ The official rules and guidelines are available on [ChallengeRules.md](Challenge
 
 ### 2022 Challenge leaderboard
 
-The leaderboard will soon be provided here. In the meantime, please check out our paper on the [SoccerNet 2022 Challenge Results](https://arxiv.org/abs/2210.02365) published at the ACMM Workshop.
+The leaderboard will soon be provided here. 
+In the meantime, please check out our paper on the [SoccerNet 2022 Challenge Results](https://arxiv.org/abs/2210.02365) published at the ACMM Workshop.
 
 ### 2021 Challenge leaderboard
 
@@ -101,8 +101,15 @@ mySoccerNetDownloader.downloadGames(files=["1_baidu_soccer_embeddings.npy", "2_b
 ### SoccerNet Ball Action Spotting
 
 You may use the same pip package as for SoccerNet-v2.
-Information and data coming soon.
 
+The following code will download the videos and annotations (except annotations on the challenge set).
+
+```
+from SoccerNet.Downloader import SoccerNetDownloader as SNdl
+mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
+mySNdl.password =  input("Password for videos?:\n")
+mySNdl.downloadDataTask(task="spotting-ball-2023", split=["train", "valid", "test", "challenge"])
+```
 
 ## How to extract video features 
 
@@ -138,6 +145,8 @@ Check out our other challenges related to SoccerNet!
 - [Calibration](https://github.com/SoccerNet/sn-calibration)
 - [Re-Identification](https://github.com/SoccerNet/sn-reid)
 - [Tracking](https://github.com/SoccerNet/sn-tracking)
+- [Dense Video Captioning](https://github.com/SoccerNet/sn-caption)
+- [Jersey Number Recognition](https://github.com/SoccerNet/sn-jersey)
 
 ## Citation
 
@@ -158,7 +167,6 @@ Please cite our work if you use our dataset:
 For further information about the chalklenge check out the paper and supplementary material:
 https://arxiv.org/abs/2210.02365
 
-Please cite our work if you use the SoccerNet dataset:
 ```bibtex
 @inproceedings{Giancola_2022,
 	doi = {10.1145/3552437.3558545},
