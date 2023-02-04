@@ -100,9 +100,15 @@ mySoccerNetDownloader.downloadGames(files=["1_baidu_soccer_embeddings.npy", "2_b
 
 ### SoccerNet Ball Action Spotting
 
-You may use the same pip package as for SoccerNet-v2.
+The easiest way to download and prepare the data is to use the following python code.
 
-The following code will download the videos and annotations (except annotations on the challenge set).
+```
+python Download/download_ball_data.py --dataset_dir path/to/SoccerNet --password_videos "password_received_from_NDA"
+```
+
+Alternatively, you may use the same pip package as for SoccerNet-v2.
+
+The following code will download the videos and annotations (except annotations on the challenge set) in separated zip files.
 
 ```
 from SoccerNet.Downloader import SoccerNetDownloader as SNdl
@@ -110,6 +116,8 @@ mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
 mySNdl.password =  input("Password for videos?:\n")
 mySNdl.downloadDataTask(task="spotting-ball-2023", split=["train", "valid", "test", "challenge"])
 ```
+
+Note that you may have to extract and merge the zip files yourself if you choose the second option.
 
 ## How to extract video features 
 
