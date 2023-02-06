@@ -12,8 +12,8 @@ We propose the SoccerNet challenge to encourage the development of state-of-the-
  - **Action Spotting**: Spot the actions on a complete video of soccer game among 17 classes.
  - **Ball Action Spotting**: Spot the actions related to the ball on a complete video of soccer game among 2 classes.
 
-We provide an [evaluation server]() for anyone competing in the SoccerNet challenge. 
-This evaluation server handles predictions for the open **test** set and the segregated **challenge** set.
+We provide an [evaluation server](https://eval.ai/web/challenges/challenge-page/1949/overview) for the Action Spotting task, and another [evaluation server](https://eval.ai/web/challenges/challenge-page/1950/overview) for the ball action spotting task. 
+These evaluation servers handles predictions for the open **test** sets and the segregated **challenge** sets of each challenge.
 
 Winners will be announced at CVSports Workshop at CVPR 2023. 
 Prizes will be announced soon, stay tuned!
