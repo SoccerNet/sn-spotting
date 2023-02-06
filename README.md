@@ -18,7 +18,7 @@ The Action Spotting dataset consists of 500 complete soccer games including:
  - Full untrimmed broadcast videos in both low and high resolution.
  - Annotations of actions among 2 classes (Labels-ball.json).
 
-Participate in our upcoming Challenges during the [CVPR 2023 International Challenge at the CVSports Workshop](https://vap.aau.dk/cvsports/)! All details will be available on the [challenge website](https://eval.ai/web/challenges/challenge-page/1536/overview), or on the [main soccernet page](https://www.soccer-net.org/).
+Participate in our upcoming Challenges during the [CVPR 2023 International Challenge at the CVSports Workshop](https://vap.aau.dk/cvsports/)! All details are provided on our [evaluation server](https://eval.ai/web/challenges/challenge-page/1949/overview) for the Action Spotting task, and on another [evaluation server](https://eval.ai/web/challenges/challenge-page/1950/overview) for the ball action spotting task, or on the [main soccernet page](https://www.soccer-net.org/).
 
 The participation deadline is fixed at the 30th of May 2023.
 The official rules and guidelines are available on [ChallengeRules.md](ChallengeRules.md).
