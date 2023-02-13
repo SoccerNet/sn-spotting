@@ -28,3 +28,11 @@ for split in list_splits:
     with zipfile.ZipFile(zip_filename, 'r') as zip_ref:
         zip_ref.extractall(subtask_data_dir)
     print(f"... done unzipping {split}.zip")
+
+
+    print(f"Remove {split}.zip ...")
+    if os.path.exists(zip_filename):
+        os.remove(zip_filename)
+    else:
+        print("The file does not exist")
+    print(f"... {split}.zip has been removed")
