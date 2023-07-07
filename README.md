@@ -27,10 +27,321 @@ The official rules and guidelines are available on [ChallengeRules.md](Challenge
 <p align="center"><img src="Images/Thumbnail.png" width="720"></p>
 </a>
 
+### 2023 Challenge leaderboard
+
+<p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Team</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Average-mAP (tight)</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Shown only (tight)</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Unshown only (tight)</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Average-mAP (loose)</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Shown only (loose)</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: medium;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Unshown only (loose)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">SDU_VSISLAB</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">71.31</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">76.29</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">54.09</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">78.56</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">81.67</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">69.13</td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">mt_player</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">71.1</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">77.22</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">58.5</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">78.79</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">82.02</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">77.62</td>
+    </tr>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">ASTRA  (ASBY193)</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">70.1</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">75.0</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">57.98</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">79.21</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">81.69</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">75.36</td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">team_ws_action</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">69.17</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">75.18</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">59.12</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">76.95</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">80.39</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">75.92</td>
+    </tr>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">CEA LVA</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">68.38</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">74.79</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">47.68</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">73.98</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">78.57</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">61.75</td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">Baseline (Yahoo)</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">68.33</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">73.22</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">60.88</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">78.06</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">80.58</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">78.32</td>
+    </tr>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">DVP</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">66.95</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">74.68</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">53.81</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">73.61</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">79.15</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">67.38</td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">JAMY2  (AF_GRU)</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">51.97</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">58.05</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">44.29</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">63.12</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">65.98</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">61.66</td>
+    </tr>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">tyru  (GRU_CALF)</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">51.38</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">57.5</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">41.82</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">62.88</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">66.3</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">56.57</td>
+    </tr>
+    <tr>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">JAMY  (LocPoint)</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">45.83</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">49.68</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">45.71</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">61.8</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">64.23</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">63.48</td>
+    </tr>
+    <tr>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">test_YYQ</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">12.73</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">14.13</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">11.21</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">54.21</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">58.75</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: medium;text-align: left;padding: 0px 20px 0px 0px;width: auto">48.55</td>
+    </tr>
+  </tbody>
+</table></p>
+
 ### 2022 Challenge leaderboard
 
-The leaderboard will soon be provided here. 
-In the meantime, please check out our paper on the [SoccerNet 2022 Challenge Results](https://arxiv.org/abs/2210.02365) published at the ACMM Workshop.
+<table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team</th>
+      <th>tight Avg-mAP (challenge)</th>
+      <th>tight Avg-mAP visible (challenge)</th>
+      <th>tight Avg-mAP unshown (challenge)</th>
+      <th>Avg-mAP (challenge)</th>
+      <th>Avg-mAP visible (challenge)</th>
+      <th>Avg-mAP unshown (challenge)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Yahoo Research</td>
+      <td>67.81</td>
+      <td>72.84</td>
+      <td>60.17</td>
+      <td>78.05</td>
+      <td>80.61</td>
+      <td>78.05</td>
+    </tr>
+    <tr>
+      <td>PTS</td>
+      <td>66.73</td>
+      <td>74.84</td>
+      <td>53.21</td>
+      <td>73.62</td>
+      <td>79.16</td>
+      <td>67.42</td>
+    </tr>
+    <tr>
+      <td>AS&amp;RG</td>
+      <td>64.88</td>
+      <td>70.31</td>
+      <td>53.03</td>
+      <td>72.83</td>
+      <td>76.08</td>
+      <td>72.35</td>
+    </tr>
+    <tr>
+      <td>mt_sdu_action</td>
+      <td>62.26</td>
+      <td>67.48</td>
+      <td>45.04</td>
+      <td>69.86</td>
+      <td>73.81</td>
+      <td>59.15</td>
+    </tr>
+    <tr>
+      <td>Rkrystal</td>
+      <td>61.84</td>
+      <td>67.39</td>
+      <td>48.71</td>
+      <td>74.75</td>
+      <td>78.29</td>
+      <td>69.02</td>
+    </tr>
+    <tr>
+      <td>arturxe</td>
+      <td>60.56</td>
+      <td>65.75</td>
+      <td>53.00</td>
+      <td>71.72</td>
+      <td>75.15</td>
+      <td>69.91</td>
+    </tr>
+    <tr>
+      <td>cihe</td>
+      <td>59.97</td>
+      <td>64.51</td>
+      <td>53.80</td>
+      <td>72.95</td>
+      <td>76.29</td>
+      <td>71.95</td>
+    </tr>
+    <tr>
+      <td>GUC</td>
+      <td>58.71</td>
+      <td>63.70</td>
+      <td>51.86</td>
+      <td>70.49</td>
+      <td>73.46</td>
+      <td>70.11</td>
+    </tr>
+    <tr>
+      <td>abcdefg</td>
+      <td>56.07</td>
+      <td>62.97</td>
+      <td>46.51</td>
+      <td>67.88</td>
+      <td>72.54</td>
+      <td>66.37</td>
+    </tr>
+    <tr>
+      <td>intro-and inter</td>
+      <td>53.97</td>
+      <td>60.04</td>
+      <td>47.52</td>
+      <td>67.75</td>
+      <td>71.16</td>
+      <td>70.12</td>
+    </tr>
+    <tr>
+      <td>memory</td>
+      <td>53.03</td>
+      <td>57.94</td>
+      <td>43.16</td>
+      <td>67.15</td>
+      <td>69.20</td>
+      <td>68.28</td>
+    </tr>
+    <tr>
+      <td>stargazer</td>
+      <td>52.04</td>
+      <td>60.18</td>
+      <td>32.06</td>
+      <td>60.86</td>
+      <td>66.64</td>
+      <td>48.46</td>
+    </tr>
+    <tr>
+      <td>heaven</td>
+      <td>51.85</td>
+      <td>59.85</td>
+      <td>31.62</td>
+      <td>60.88</td>
+      <td>66.67</td>
+      <td>48.45</td>
+    </tr>
+    <tr>
+      <td>lczazu</td>
+      <td>49.56</td>
+      <td>56.82</td>
+      <td>31.60</td>
+      <td>60.86</td>
+      <td>66.56</td>
+      <td>48.51</td>
+    </tr>
+    <tr>
+      <td>Baseline*</td>
+      <td>49.56*</td>
+      <td>54.42</td>
+      <td>45.42</td>
+      <td>74.84</td>
+      <td>78.58</td>
+      <td>71.52</td>
+    </tr>
+    <tr>
+      <td>zqing</td>
+      <td>47.54</td>
+      <td>51.75</td>
+      <td>41.65</td>
+      <td>66.66</td>
+      <td>69.06</td>
+      <td>67.17</td>
+    </tr>
+    <tr>
+      <td>welkin</td>
+      <td>42.74</td>
+      <td>49.91</td>
+      <td>20.67</td>
+      <td>50.90</td>
+      <td>56.48</td>
+      <td>35.38</td>
+    </tr>
+    <tr>
+      <td>DUT</td>
+      <td>40.65</td>
+      <td>43.87</td>
+      <td>43.10</td>
+      <td>68.40</td>
+      <td>71.68</td>
+      <td>68.53</td>
+    </tr>
+    <tr>
+      <td>sshinde5</td>
+      <td>36.71</td>
+      <td>39.33</td>
+      <td>21.26</td>
+      <td>51.36</td>
+      <td>55.29</td>
+      <td>35.34</td>
+    </tr>
+    <tr>
+      <td>SIT</td>
+      <td>21.60</td>
+      <td>26.55</td>
+      <td>16.83</td>
+      <td>29.92</td>
+      <td>34.92</td>
+      <td>25.22</td>
+    </tr>
+  </tbody>
+</table>
+Check out our paper on the [SoccerNet 2022 Challenge Results](https://arxiv.org/abs/2210.02365) published at the ACMM Workshop.
 
 ### 2021 Challenge leaderboard
 
