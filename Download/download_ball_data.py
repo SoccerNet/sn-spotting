@@ -17,7 +17,7 @@ list_splits = ["train", "valid", "test", "challenge"]
 
 # Download zipped folder per split
 mySoccerNetDownloader = SoccerNetDownloader(LocalDirectory=args.dataset_dir)
-mySoccerNetDownloader.downloadDataTask(task="spotting-ball-2023",
+mySoccerNetDownloader.downloadDataTask(task="spotting-ball-2024",
                                        split=list_splits,
                                        password=args.password_videos)
 # Extract files from zipped folders
