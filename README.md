@@ -499,7 +499,7 @@ The following code will download the videos and annotations (except annotations 
 ```
 from SoccerNet.Downloader import SoccerNetDownloader as SNdl
 mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
-mySNdl.downloadDataTask(task="spotting-ball-2023", split=["train", "valid", "test", "challenge"], password=<PW_FROM_NDA>)
+mySNdl.downloadDataTask(task="spotting-ball-2024", split=["train", "valid", "test", "challenge"], password=<PW_FROM_NDA>)
 ```
 
 Note that you may have to extract and merge the zip files yourself if you choose the second option.
