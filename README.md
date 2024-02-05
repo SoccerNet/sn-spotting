@@ -1,11 +1,13 @@
 # SoccerNet - Action Spotting
 
-Welcome to the SoccerNet Development Kit for the Action Spotting Task and Challenge. This kit is meant as a help to get started working with the soccernet data and the proposed task. More information about the dataset can be found on our [official website](https://www.soccer-net.org/).
+Welcome to the SoccerNet Development Kit for the Action Spotting and Ball Action Spotting Tasks and Challenges. This kit is meant as a help to get started working with the soccernet data and the proposed task. More information about the dataset can be found on our [official website](https://www.soccer-net.org/).
 
 SoccerNet Action Spotting is part of the SoccerNet-v2 dataset, which is an extension of SoccerNet-v1 with new and challenging tasks including
 action spotting, camera shot segmentation with boundary detection, and a novel replay grounding task.
 
-__[New]__ In 2023, we introduce a novel spotting challenge on ball events including drive and passes. Those events are much more dense and require a higher level of spotting precision. The density of those events, as well as the subtle underlying movement of the ball and players, make this new task even more challenging. For this new challenge, you only have access to 7 annotated games, so you may want to take a look at different training paradigms such as transfer learning, unsupervised learning or semi-supervised learning. Remember that you still have access to the 500 videos from soccernet to help you.
+__[New]__ In 2024, we renew the Ball Action Spotting Challenge, including 12 classes: Pass, Drive, Header, High Pass, Out, Cross, Throw In, Shot, Ball Player Block, Player Successful Tackle, Free Kick, Goal. Those events are much more dense and require a higher level of spotting precision. The density of those events, as well as the subtle underlying movement of the ball and players, make this new task even more challenging. For this new challenge, you only have access to 7 annotated games, so you may want to take a look at different training paradigms such as transfer learning, unsupervised learning or semi-supervised learning. Remember that you still have access to the 500 videos from soccernet to help you.
+
+__[New]__ A Baseline code to get started on the 2024 Ball Action spotting Challenge is available here: [https://github.com/recokick/ball-action-spotting](https://github.com/recokick/ball-action-spotting). It is a fork of the amazing work of last year's Ball Action Spotting Winner, Ruslan Baikulov, adapted to the new classes. Go check out and star his original repo: [https://github.com/lRomul/ball-action-spotting](https://github.com/lRomul/ball-action-spotting).
 
 <p align="center"><img src="Images/GraphicalAbstract-SoccerNet-V2-1.png" width="640"></p>
 
@@ -16,11 +18,11 @@ The Action Spotting dataset consists of 500 complete soccer games including:
 
  The new Ball Action Spotting dataset consists of 7 complete soccer games including:
  - Full untrimmed broadcast videos in both low and high resolution.
- - Annotations of actions among 2 classes (Labels-ball.json).
+ - Annotations of actions among 12 classes (Labels-ball.json).
 
-Participate in our upcoming Challenges during the [CVPR 2023 International Challenge at the CVSports Workshop](https://vap.aau.dk/cvsports/)! All details are provided on our [evaluation server](https://eval.ai/web/challenges/challenge-page/1949/overview) for the Action Spotting task, and on another [evaluation server](https://eval.ai/web/challenges/challenge-page/1950/overview) for the ball action spotting task, or on the [main soccernet page](https://www.soccer-net.org/).
+Participate in our upcoming Challenges during the [CVPR 2024 International Challenge at the CVSports Workshop](https://vap.aau.dk/cvsports/)! All details are provided on our [evaluation server](https://eval.ai/web/challenges/challenge-page/2200/overview) for the ball action spotting task, or on the [main soccernet page](https://www.soccer-net.org/).
 
-The participation deadline is fixed at the 30th of May 2023.
+The participation deadline is fixed at the 30th of May 2024.
 The official rules and guidelines are available on [ChallengeRules.md](ChallengeRules.md).
 
 <a href="https://youtu.be/tA9E1hkiyB0">
